@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Quicksand&display=swap');
+
+body {
+  margin: auto;
+}
+.container {
+  width: 700px;
+  margin: 0px auto;
+}
+.banner {
+  text-align: center;
+  padding: 120px 0px;
+  padding-bottom: 25px;
+  background: url(https://source.unsplash.com/random) no-repeat center;
+  background-size: cover;
+  height: 350px;
+  color: white;
+}
+
+#second-header {
+  opacity: 0.8;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 35px;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.paragraphs h2 {
+  font-size: 35px;
+  opacity: 0.2;
+}
+
+p {
+  font-size: 24px;
+  opacity: 0.8;
+}
+
+.link-medium {
+  padding: 50px 0px;
+
+}
+
+.link-medium a {
+  text-decoration: none;
+  font-size: 35px;
+  font-family: 'Quicksand', sans-serif;
+  font-style: italic;
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+}
+
+.link-medium a:hover {
+  background-image: linear-gradient(to bottom, rgba(180, 253, 240, 1), rgba(180, 253, 240, 1));
+  margin: auto;
+}
+
+@media (max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 576px) {
+  .container {
+    width: 300px;
+  }
+}
